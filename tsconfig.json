@@ -24,7 +24,8 @@
     "strict": true,
     "target": "esnext",
   },
+  "include": ["./src/*"],
   "exclude": [
-        "./example"
+        "./src/__tests__/*"
     ]
 }
